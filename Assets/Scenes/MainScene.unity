@@ -120,11 +120,59 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2070499562}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!1001 &497040028
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962027267853866, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51b351b6d4abd514998b9d13272b26eb, type: 2}
+  m_IsPrefabParent: 0
 --- !u!198 &500961181 stripped
 ParticleSystem:
   m_PrefabParentObject: {fileID: 198717042511575082, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
     type: 2}
   m_PrefabInternal: {fileID: 1929645117}
+--- !u!114 &709401524 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114955560038706432, guid: c3ebde65bbd3c5c43a27cf4be9502c0b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1719324915}
+  m_Script: {fileID: 11500000, guid: 090a125650566664ca9744f1258e0423, type: 3}
 --- !u!114 &828173066 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114698037465692252, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
@@ -253,6 +301,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1504435246}
   m_Script: {fileID: 11500000, guid: 8902ef04f323e444b98d2e4fd80a56ab, type: 3}
+--- !u!114 &1475361830 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11495966, guid: ccf8c8cc05aad7b40a8deb4f73296da4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1504435246}
+  m_Script: {fileID: 11500000, guid: ffebc012055484b4899e163803755608, type: 3}
 --- !u!4 &1475361835 stripped
 Transform:
   m_PrefabParentObject: {fileID: 493278, guid: ccf8c8cc05aad7b40a8deb4f73296da4, type: 2}
@@ -518,6 +572,16 @@ Prefab:
       propertyPath: gunContainer
       value: 
       objectReference: {fileID: 1398656581}
+    - target: {fileID: 114011971931558918, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
+        type: 2}
+      propertyPath: shootingGalleryController
+      value: 
+      objectReference: {fileID: 709401524}
+    - target: {fileID: 114011971931558918, guid: 31e7b5e5c22f22d4db72ced1750fc25b,
+        type: 2}
+      propertyPath: eyeRaycaster
+      value: 
+      objectReference: {fileID: 1475361830}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 31e7b5e5c22f22d4db72ced1750fc25b, type: 2}
   m_IsPrefabParent: 0
